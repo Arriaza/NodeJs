@@ -1,13 +1,13 @@
 // handler o controller
 const User = {
   get: (req, res) => {
-    res.status(200).send('Conectado con éxito');
+    res.status(200).send('Successfully connected');
   },
   list: (req, res) => {
-    res.status(200).send('Hola usuario');
+    res.status(200).send('Hello user');
   },
   create: (req, res) => {
-    res.status(201).send('Creando usuario');
+    res.status(201).send('Creating user');
   },
   update: (req, res) => {
     res.sendStatus(204);

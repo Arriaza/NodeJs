@@ -20,14 +20,14 @@ app.delete('/:id', user.destroy);
 
 // undefined routes
 app.get('*', (req, res) => {
-  res.status(404).send('Esta página no existe');
+  res.status(404).send('This page does not exist');
 });
 
 app.post('*', (req, res) => {
-  res.status(404).send('Esta página no existe');
+  res.status(404).send('This page does not exist');
 });
 
 // run the app
 app.listen(port, () => {
-  console.log('Arrancando la app');
+  console.log('Launching the app');
 });
